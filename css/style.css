@@ -1,0 +1,11 @@
+#main .carousel-inner img{
+    max-height: 70vh;
+    object-fit: cover;
+}
+
+#carosuel{
+    position: relative;
+}
+#header{
+    -webkit-transition: background-color .5s;
+}
