@@ -20,7 +20,7 @@
     
     <!--HEADER-->
     <!--HEADER-->
-    <nav id="header" class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color:transparent;">
+    <nav id="header" class="fadeInDown navbar navbar-expand-lg navbar-dark fixed-top" style="background-color:transparent;">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
               Void Esports
@@ -66,9 +66,14 @@
 
     <!--HERO-->
     <!--HERO-->
-    <section id="main">
-        <div style="background-color:#11081b;" id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
+    <section id="main" class="">
+        <div style="background-color:#11081b;" id="carouselExampleDark" class="carousel slide fadeInUp" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>        
+          <div class="carousel-inner">
               <div class="carousel-item active" data-bs-interval="5000">
                 <img src="img/slider_1.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
@@ -79,7 +84,7 @@
                 </div>
               </div>
               <div class="carousel-item" data-bs-interval="5000">
-                <img src="img/background.jpg" class="d-block w-100" alt="...">
+                <img src="img/slider_2.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Segundo slide label</h5>
                     <p>Some representative placeholder content for the first slide.</p>
@@ -93,15 +98,6 @@
                 </div>
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-        </div>
     </section>
     <script>
         $(document).ready(function(){
@@ -129,9 +125,13 @@
     <!--HERO-->
     <!--HERO-->
     <img src="img/logo.jpg" alt="">
+    <img src="img/logo.jpg" alt="">
+    <img src="img/logo.jpg" alt="">
+    <img src="img/logo.jpg" alt="">
+    <img src="img/logo.jpg" alt="">
+
     <!--FOOTER-->
-    <!--FOOTER-->
-    <footer id="footer" style="background-color:#11081b;" class="pb-4 pt-4">
+    <footer id="footer" style="background-color:#11081b;" class="pb-4 pt-4 fadeIn">
         <div class="container">
             <div class="row text-center">
                 <div class="col-12 col-md col-lg"><a href="#" class="text-white">Preguntas Frecuentes</a></div>
