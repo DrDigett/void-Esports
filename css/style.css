@@ -1,5 +1,9 @@
+#header div a img{
+  max-height: 10vh;
+}
+
 #main .carousel-inner img{
-    max-height: 70vh;
+    max-height: 95vh;
     object-fit: cover;
 }
 
@@ -8,7 +12,7 @@
 }
 
 #header{
-    -webkit-transition: background-color .5s;
+    -webkit-transition: background-color .7s;
 }
 
 .fadeIn
